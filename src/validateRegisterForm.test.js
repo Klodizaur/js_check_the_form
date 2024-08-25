@@ -105,7 +105,7 @@ describe(`Function 'validateRegisterForm':`, () => {
       'P@ssword1!'
     );
 
-    expect(validEmail.code).toBe(200); // Updated expectation
+    expect(validEmail.code).toBe(200);
     expect(validEmail.message).toBe('Email and password are valid.');
   });
 
